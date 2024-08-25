@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Sansita+Swashed:wght@300..900&display=swap');
+
+.top-banner-container {
+    margin-top: 4rem;
+    font-family: "Matemasie", sans-serif;
+    /* font-family: "Sansita Swashed", system-ui; */
+    font-size: 2rem;
+    text-align: center;
+}
