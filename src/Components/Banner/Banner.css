@@ -3,8 +3,11 @@
 
 .top-banner-container {
     margin-top: 4rem;
-    font-family: "Matemasie", sans-serif;
     /* font-family: "Sansita Swashed", system-ui; */
-    font-size: 2rem;
     text-align: center;
+}
+
+.top-banner-container h2{
+    font-size: 2rem;
+    font-family: "Matemasie", sans-serif;
 }
