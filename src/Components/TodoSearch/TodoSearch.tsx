@@ -23,16 +23,16 @@ const TodoSearch = () => {
   };
 
   return (
-    <>
+    <div className="backdrop-blur-md rounded-md ">
       <Banner count={listArray.length} />
-      <div className="m-10 flex justify-center flex-col items-center gap-10">
+      <div className="m-10 flex justify-center flex-col items-center gap-10 ">
         <form onSubmit={handleSubmitTodo}>
           <Input
             type="text"
             todoInput={todoInput}
             setTodoInput={setTodoInput}
           />
-          <Button type="submit" className="py-2 px-6 rounded-md bg-red-600">
+          <Button type="submit" className="py-2 px-6 rounded-md bg-red-600 font-semibold">
             Add
           </Button>
         </form>
@@ -42,7 +42,7 @@ const TodoSearch = () => {
           <TodoList listArray={listArray} setListArray={setListArray} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
